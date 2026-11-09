@@ -50,10 +50,10 @@ def clean(pages):
         cleaned[url] = rows
     return cleaned
 
-def filter(cleaned):
+# def filter(cleaned):
    # filtered = {}
    # for url, rows in cleaned.items():
 
-# Scrape everything in the dictionary and print it
+# Test
 scrape(url)
 print(clean(html))
