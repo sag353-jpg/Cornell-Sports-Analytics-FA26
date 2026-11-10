@@ -1,6 +1,17 @@
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
+
+
+
+
+
+
+
+
+
+# Prototype. Scrapes all statistics.
+"""
 # URL can be any individual match page from https://theanalyst.com/
 url = ["https://theanalyst.com/opta-football-match-centre?competitionId=2kwbbcootiqqgmrzs6o5inle5&seasonId=6pdwluctev9iebv00r4qqukno&matchId=4sbvntlrcii2yfgkq0rdnd1xw"
 ]
@@ -57,3 +68,4 @@ def clean(pages):
 # Test
 scrape(url)
 print(clean(html))
+"""
